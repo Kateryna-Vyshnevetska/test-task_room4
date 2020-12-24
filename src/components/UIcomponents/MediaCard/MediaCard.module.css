@@ -1,0 +1,39 @@
+.container{
+  width: 373px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgBlock{
+  cursor: auto;
+}
+
+.media{
+  height: 140px;
+  display:block;
+}
+
+.link{
+  text-align: center;
+  margin-bottom: 25px;
+  color: #e96997;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1s ease; 
+}
+
+.link:hover{
+  color: #f50057;
+  border-bottom: 1px solid #f50057;
+}
+
+.btnBlock{
+  cursor: pointer;
+  width: 130px;
+  margin: 0 auto;
+}
+
+.btn:hover{
+  border-bottom: 1px solid #f50057;
+}

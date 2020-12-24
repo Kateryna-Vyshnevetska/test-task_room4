@@ -1,0 +1,32 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+}
+
+a,p,h1,h2,h3,ul,span{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.loader{
+  margin: 0 auto;
+  width: 100px;
+}

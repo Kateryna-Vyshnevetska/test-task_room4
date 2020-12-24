@@ -1,0 +1,40 @@
+.container{
+  padding: 20px;
+  display: flex;
+}
+
+.img{
+  margin-right: 50px;
+}
+
+.content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.name{
+  margin-bottom: 25px;
+  width: 250px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e96997;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+}
+
+.listItem{
+  padding-right: 10px;
+}
+
+.listItem:last-child{
+  padding-right: 0;
+}

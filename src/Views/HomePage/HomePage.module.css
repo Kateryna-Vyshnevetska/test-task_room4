@@ -1,0 +1,18 @@
+.container{
+  padding: 20px;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  justify-content: center;
+}
+
+.listItem{
+  padding: 15px;
+}
+
+.listItem:nth-last-child(-n+3){
+  padding-bottom:0 ;
+}
